@@ -6,8 +6,8 @@ def summon_captain_planet(arr)
   return arr.map{|x| x[0].upcase + x[1, x.length - 1] + "!"}
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(arr)
+  arr.
 end
 
 def find_the_cheese# code an argument here
