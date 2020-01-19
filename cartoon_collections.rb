@@ -2,8 +2,8 @@ def roll_call_dwarves(arr)
   arr.each_with_index{|x, index| puts (index + 1 ).to_s + ". "  + x }
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(arr)
+  arr.map{|x| x[0].toUpperCase() + }
 end
 
 def long_planeteer_calls# code an argument here
