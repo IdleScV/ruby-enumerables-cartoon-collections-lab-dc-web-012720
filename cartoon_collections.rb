@@ -7,9 +7,11 @@ def summon_captain_planet(arr)
 end
 
 def long_planeteer_calls(arr)
-  arr.map(|x| if x.length > 4
-                return true
-              end)
+  count = 0
+  while count < arr.length 
+    if arr[count].length > 4
+      return true
+    end
   return false
 end
 
